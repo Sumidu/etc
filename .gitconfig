@@ -1,0 +1,27 @@
+[user]
+	email = andrecalerovaldez@gmail.com
+	name = André Calero Valdez
+
+[pull]
+	rebase = true
+
+[rebase]
+	autoStash = true
+
+[commit]
+	verbose = true
+
+[diff]
+	algorithm = histogram
+
+[alias]
+	st = status
+	co = checkout
+	cl = clone
+	yes = commit
+	no = reset
+[credential]
+	helper = osxkeychain
+[core]
+	excludesFile = ~/.gitignore
+	editor = nano
